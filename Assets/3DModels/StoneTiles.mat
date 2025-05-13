@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneTiles
+  m_Shader: {fileID: 4800000, guid: 61e53729ad706d049b12a441f328fe34, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ClearCoatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClearCoatRoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseColorMap:
+        m_Texture: {fileID: 7500470391189984481, guid: 7f2697afb79494bfda4150a5ef923021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4c20964336b85479db919babf4c0af4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: -6926897965863803165, guid: 7f2697afb79494bfda4150a5ef923021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: -7067539895593119811, guid: 7f2697afb79494bfda4150a5ef923021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 0
+    - _BUILTIN_QueueControl: 1
+    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_SrcBlend: 1
+    - _BUILTIN_Surface: 0
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 1
+    - _BUILTIN_ZWriteControl: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatMaskUVRotation: 0
+    - _ClearCoatRoughness: 0.01
+    - _ClearCoatRoughnessUVRotation: 0
+    - _Cull: 2
+    - _DiffuseUVRotation: 0
+    - _DiffuseUseVertexColor: 0
+    - _DstBlend: 0
+    - _EmissiveUVRotation: 0
+    - _EmissiveUseVertexColor: 0
+    - _Metallic: 1
+    - _MetallicUVRotation: 0
+    - _NormalUVRotation: 0
+    - _OcclusionUVRotation: 0
+    - _Opacity: 1
+    - _OpacityThreshold: 0
+    - _OpacityUVRotation: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Roughness: 1
+    - _RoughnessUVRotation: 0
+    - _SpecularUVRotation: 0
+    - _SpecularUseVertexColor: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _USEDISPLACEMENTMAP: 0
+    - _UseSpecularMap: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    m_Colors:
+    - _ClearCoatMaskChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _ClearCoatMaskTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _ClearCoatMaskTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _ClearCoatMaskUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _ClearCoatMaskUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _ClearCoatMaskUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _ClearCoatRoughnessChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _ClearCoatRoughnessTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _ClearCoatRoughnessTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _ClearCoatRoughnessUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _ClearCoatRoughnessUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _ClearCoatRoughnessUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffuseTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _DiffuseUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _DiffuseUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _DisplacementVertexColorMask: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissiveUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _EmissiveUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _MetallicChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _MetallicTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _MetallicTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _MetallicUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _MetallicUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _MetallicUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _NormalUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _NormalUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _OcclusionChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _OcclusionTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _OcclusionTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _OcclusionUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _OcclusionUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _OcclusionUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _OpacityChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _OpacityTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _OpacityTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _OpacityUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _OpacityUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _OpacityUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _RoughnessChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _RoughnessTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _RoughnessTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _RoughnessUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _RoughnessUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _RoughnessUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularChannelMask: {r: 1, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularTextureBias: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularTextureScale: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularUVMask: {r: 1, g: 0, b: 0, a: 0}
+    - _SpecularUVScale: {r: 1, g: 1, b: 0, a: 0}
+    - _SpecularUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &1055234280707575695
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!114 &3918965120584004235
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

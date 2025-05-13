@@ -1,0 +1,15 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl DF_Denim_FRONT_2466
+Ka 0.054451 0.092769 0.142179
+Kd 0.173564 0.295702 0.453195
+Ks 0.045000 0.045000 0.045000
+Ns 9.901810
+illum 2
+map_Kn G:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/OBJ/OBJ Single Object/DG100074_normal_1001.png
+newmtl Material1041664
+Ka 0.257132 0.257132 0.257132
+Kd 0.819608 0.819608 0.819608
+Ks 0.900000 0.900000 0.900000
+Ns 128.000000
+illum 2
+map_Kn G:/Digital Fashionwear/Md. Redwan Islam - Digital Garments Core 3D File (DG)/Core Files/DG100051-DG100100/DG100074/OBJ/OBJ Single Object/DG100074_normal_1001.png
