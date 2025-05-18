@@ -8,27 +8,52 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: StoneTiles
-  m_Shader: {fileID: 4800000, guid: 61e53729ad706d049b12a441f328fe34, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 5cb29ca5ba84847b5a02857f36b00492, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ClearCoatMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatRoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -40,16 +65,56 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissiveColorMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4c20964336b85479db919babf4c0af4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5cb29ca5ba84847b5a02857f36b00492, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
         m_Texture: {fileID: -6926897965863803165, guid: 7f2697afb79494bfda4150a5ef923021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -64,11 +129,39 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RoughnessMap:
         m_Texture: {fileID: -7067539895593119811, guid: 7f2697afb79494bfda4150a5ef923021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -86,6 +179,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _BUILTIN_AlphaClip: 0
@@ -101,40 +195,71 @@ Material:
     - _BUILTIN_ZWriteControl: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatMaskUVRotation: 0
     - _ClearCoatRoughness: 0.01
     - _ClearCoatRoughnessUVRotation: 0
+    - _ClearCoatSmoothness: 0
     - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
     - _DiffuseUVRotation: 0
     - _DiffuseUseVertexColor: 0
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EmissiveUVRotation: 0
     - _EmissiveUseVertexColor: 0
-    - _Metallic: 1
+    - _EnableHeightBlend: 0
+    - _EnableInstancedPerPixelNormal: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightTransition: 0
+    - _Metallic: 0
+    - _Metallic0: 0
+    - _Metallic1: 0
+    - _Metallic2: 0
+    - _Metallic3: 0
     - _MetallicUVRotation: 0
+    - _Mode: 0
     - _NormalUVRotation: 0
+    - _NumLayersCount: 1
+    - _OcclusionStrength: 1
     - _OcclusionUVRotation: 0
     - _Opacity: 1
     - _OpacityThreshold: 0
     - _OpacityUVRotation: 0
+    - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Roughness: 1
     - _RoughnessUVRotation: 0
+    - _Smoothness: 0.5
+    - _Smoothness0: 0.5
+    - _Smoothness1: 0.5
+    - _Smoothness2: 0.5
+    - _Smoothness3: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SpecularUVRotation: 0
     - _SpecularUseVertexColor: 0
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _USEDISPLACEMENTMAP: 0
+    - _UVSec: 0
     - _UseSpecularMap: 0
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
+    - _BaseColor: {r: 0.8962264, g: 0.875089, b: 0.875089, a: 1}
     - _ClearCoatMaskChannelMask: {r: 1, g: 0, b: 0, a: 0}
     - _ClearCoatMaskTextureBias: {r: 0, g: 0, b: 0, a: 0}
     - _ClearCoatMaskTextureScale: {r: 1, g: 1, b: 1, a: 1}
@@ -147,6 +272,7 @@ Material:
     - _ClearCoatRoughnessUVMask: {r: 1, g: 0, b: 0, a: 0}
     - _ClearCoatRoughnessUVScale: {r: 1, g: 1, b: 0, a: 0}
     - _ClearCoatRoughnessUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.8962264, g: 0.875089, b: 0.875089, a: 1}
     - _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
     - _DiffuseTextureBias: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseTextureScale: {r: 1, g: 1, b: 1, a: 1}
@@ -154,6 +280,7 @@ Material:
     - _DiffuseUVScale: {r: 1, g: 1, b: 0, a: 0}
     - _DiffuseUVTranslation: {r: 0, g: 0, b: 0, a: 0}
     - _DisplacementVertexColorMask: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveTextureBias: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveTextureScale: {r: 1, g: 1, b: 1, a: 1}
@@ -187,6 +314,7 @@ Material:
     - _RoughnessUVMask: {r: 1, g: 0, b: 0, a: 0}
     - _RoughnessUVScale: {r: 1, g: 1, b: 0, a: 0}
     - _RoughnessUVTranslation: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularChannelMask: {r: 1, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularTextureBias: {r: 0, g: 0, b: 0, a: 0}
