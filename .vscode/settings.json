@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "tangled-romeo.sln"
+    "dotnet.defaultSolution": "3D_GroupProject_all.sln"
 }
