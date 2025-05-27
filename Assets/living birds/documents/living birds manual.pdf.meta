@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: 653a6ad203d22454e87575f5ed337942
-NativeFormatImporter:
+guid: f68b05311d2f0174a9c5245288adb790
+DefaultImporter:
   externalObjects: {}
-  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -11,5 +10,5 @@ AssetOrigin:
   productId: 15649
   packageName: Living Birds
   packageVersion: v1.2
-  assetPath: Assets/living birds/demo/demoGround.mat
+  assetPath: Assets/living birds/documents/living birds manual.pdf
   uploadId: 22984
